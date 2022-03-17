@@ -1,0 +1,10 @@
+### index request
+GET http://localhost:3000/user
+
+### create request
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "first_name": "Miss Piggy"
+}
